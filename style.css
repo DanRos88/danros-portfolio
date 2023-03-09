@@ -89,6 +89,19 @@ div.wrapper{
     justify-content: center;
 }
 
+/* .hidden{
+    opacity: 0;
+    filter: blur(3px);
+    transition: all 1s;
+    transform: translateX(-100%);
+} */
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
 
 /* HEADER SECTION */
 
@@ -169,7 +182,7 @@ header > .gradient-border{
 .about-text-wrapper{
     display: flex;
     flex-direction: column;
-    align-content: space-between;
+    align-content: center;
     justify-content: center;
     height: auto;
 }
@@ -231,6 +244,25 @@ header > .gradient-border{
 
 .card{
     width: 100%;
+    transition: all 1s;
+}
+
+.card:hover{
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.card:hover .card-inner{
+    column-gap: 2%;
+    /* align-items: flex-start; */
+}
+
+.card:hover .card-inner > div{
+    width: 49%;
+}
+
+.card:hover .card-description{
+    height: auto;
 }
 
 .card-inner{
@@ -255,6 +287,8 @@ header > .gradient-border{
     margin-bottom: 30px;
     font-size: 0.8em;
     text-align: justify;
+    height: 6em;
+    overflow: hidden;
 }
 
 .btn-flex{

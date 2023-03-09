@@ -13,7 +13,7 @@
 <body>
 
     <!-- SEZIONE DEL TITOLO -->
-    <header>
+    <header class="hidden">
         <h1 class="header-title uppercase">
             .i'm <br> 
             <span class="title-color"> Daniele Rossetti </span><br>
@@ -29,7 +29,7 @@
 
     <!-- SEZIONE ABOUT -->
     <section id="about" class="skew gradient">
-        <div class="wrapper">
+        <div class="wrapper hidden">
             <h2 class="about-title uppercase">.about</h2>
             <div class="content-wrapper">
                 <div class="about-img-wrapper">
@@ -65,149 +65,206 @@
     <!-- SEZIONE PORTFOLIO -->
     <section id="portfolio">
         <div class="wrapper">
-            <h2 class="portfolio-title uppercase title-color">.Portfolio</h2>
+            <h2 class="portfolio-title uppercase title-color hidden">.Portfolio</h2>
             <div class="grid-wrapper">
                 
                 <!-- CARD PORTFOLIO -->
-                <div class="card gradient-border">
+                <div class="card gradient-border hidden">
                     <div class="card-inner">
-                        <img src="assets/img/placeholder.jpg" alt="preview progetto" class="card-img">
-                        <h3 class="title-color">Project Title</h3><hr class="title-color">
-                        <p class="card-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, maiores voluptatem eius provident quidem aperiam quaerat est numquam, sequi officia qui eum aut et magni tempore. Quam nisi tempore omnis.</p>
-                        <div class="btn-flex">
-                            <div class="gradient-border">
-                                <div class="card-btn uppercase">
-                                    <a href="#" class="uppercase title-color">visita</a>
+                        <div>
+                            <img src="assets/img/placeholder.jpg" alt="preview progetto" class="card-img">
+                        </div>
+                        <div>
+                            <h3 class="title-color">Project Title 1</h3>
+                            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nostrum ex quaerat non facilis tempora vitae atque, est, veniam dicta doloribus enim, consectetur optio nulla harum ut aliquam earum perspiciatis.
+                            Eum, illum voluptates tempore praesentium ut, dolorum corporis quod accusamus debitis in maxime. Assumenda culpa quaerat atque tempora excepturi nulla mollitia, soluta, eligendi facere quis laboriosam sapiente dolorem, veritatis pariatur!
+                            Rerum, voluptate. Minima ipsa ipsam ullam molestiae odio culpa non ex, adipisci corporis earum sed beatae repellendus voluptates delectus perspiciatis atque alias, illum quibusdam, eos veritatis quam facere maxime optio!
+                            Alias error optio corporis recusandae laudantium impedit quasi molestias laboriosam aperiam! Harum nobis enim accusamus numquam beatae facilis atque, eum eaque doloremque laboriosam suscipit voluptatibus vel ex quas. Tempora, voluptatibus?
+                            Facilis odio autem nesciunt hic voluptatibus modi minus necessitatibus veritatis optio sunt molestiae doloremque dicta suscipit porro dolorum sint ipsam nulla quas, accusantium, inventore quaerat ratione eos pariatur fugiat? Provident. </p>
+                            <div class="btn-flex">
+                                <div class="gradient-border">
+                                    <div class="card-btn uppercase">
+                                        <a href="#" class="uppercase title-color">visita</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="gradient-border">
-                                <div class="card-btn uppercase">
-                                    <a href="#" class="uppercase title-color">codice</a>
+                                <div class="gradient-border">
+                                    <div class="card-btn uppercase">
+                                        <a href="#" class="uppercase title-color">codice</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>             
                 </div>
 
-                <div class="card gradient-border">
+                <div class="card gradient-border hidden">
                     <div class="card-inner">
-                        <img src="assets/img/placeholder.jpg" alt="preview progetto" class="card-img">
-                        <h3 class="title-color">Project Title</h3>
-                        <p class="card-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, maiores voluptatem eius provident quidem aperiam quaerat est numquam, sequi officia qui eum aut et magni tempore. Quam nisi tempore omnis.</p>
-                        <div class="btn-flex">
-                            <div class="gradient-border">
-                                <div class="card-btn uppercase">
-                                    <a href="#" class="uppercase title-color">visita</a>
+                        <div>
+                            <img src="assets/img/placeholder.jpg" alt="preview progetto" class="card-img">
+                        </div>
+                        <div>
+                            <h3 class="title-color">Project Title 2</h3>
+                            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nostrum ex quaerat non facilis tempora vitae atque, est, veniam dicta doloribus enim, consectetur optio nulla harum ut aliquam earum perspiciatis.
+                            Eum, illum voluptates tempore praesentium ut, dolorum corporis quod accusamus debitis in maxime. Assumenda culpa quaerat atque tempora excepturi nulla mollitia, soluta, eligendi facere quis laboriosam sapiente dolorem, veritatis pariatur!
+                            Rerum, voluptate. Minima ipsa ipsam ullam molestiae odio culpa non ex, adipisci corporis earum sed beatae repellendus voluptates delectus perspiciatis atque alias, illum quibusdam, eos veritatis quam facere maxime optio!
+                            Alias error optio corporis recusandae laudantium impedit quasi molestias laboriosam aperiam! Harum nobis enim accusamus numquam beatae facilis atque, eum eaque doloremque laboriosam suscipit voluptatibus vel ex quas. Tempora, voluptatibus?
+                            Facilis odio autem nesciunt hic voluptatibus modi minus necessitatibus veritatis optio sunt molestiae doloremque dicta suscipit porro dolorum sint ipsam nulla quas, accusantium, inventore quaerat ratione eos pariatur fugiat? Provident. </p>
+                            <div class="btn-flex">
+                                <div class="gradient-border">
+                                    <div class="card-btn uppercase">
+                                        <a href="#" class="uppercase title-color">visita</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="gradient-border">
-                                <div class="card-btn uppercase">
-                                    <a href="#" class="uppercase title-color">codice</a>
+                                <div class="gradient-border">
+                                    <div class="card-btn uppercase">
+                                        <a href="#" class="uppercase title-color">codice</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>             
                 </div>
 
-                <div class="card gradient-border">
+                <div class="card gradient-border hidden">
                     <div class="card-inner">
-                        <img src="assets/img/placeholder.jpg" alt="preview progetto" class="card-img">
-                        <h3 class="title-color">Project Title</h3>
-                        <p class="card-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, maiores voluptatem eius provident quidem aperiam quaerat est numquam, sequi officia qui eum aut et magni tempore. Quam nisi tempore omnis.</p>
-                        <div class="btn-flex">
-                            <div class="gradient-border">
-                                <div class="card-btn uppercase">
-                                    <a href="#" class="uppercase title-color">visita</a>
+                        <div>
+                            <img src="assets/img/placeholder.jpg" alt="preview progetto" class="card-img">
+                        </div>
+                        <div>
+                            <h3 class="title-color">Project Title 3</h3>
+                            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nostrum ex quaerat non facilis tempora vitae atque, est, veniam dicta doloribus enim, consectetur optio nulla harum ut aliquam earum perspiciatis.
+                            Eum, illum voluptates tempore praesentium ut, dolorum corporis quod accusamus debitis in maxime. Assumenda culpa quaerat atque tempora excepturi nulla mollitia, soluta, eligendi facere quis laboriosam sapiente dolorem, veritatis pariatur!
+                            Rerum, voluptate. Minima ipsa ipsam ullam molestiae odio culpa non ex, adipisci corporis earum sed beatae repellendus voluptates delectus perspiciatis atque alias, illum quibusdam, eos veritatis quam facere maxime optio!
+                            Alias error optio corporis recusandae laudantium impedit quasi molestias laboriosam aperiam! Harum nobis enim accusamus numquam beatae facilis atque, eum eaque doloremque laboriosam suscipit voluptatibus vel ex quas. Tempora, voluptatibus?
+                            Facilis odio autem nesciunt hic voluptatibus modi minus necessitatibus veritatis optio sunt molestiae doloremque dicta suscipit porro dolorum sint ipsam nulla quas, accusantium, inventore quaerat ratione eos pariatur fugiat? Provident. </p>
+                            <div class="btn-flex">
+                                <div class="gradient-border">
+                                    <div class="card-btn uppercase">
+                                        <a href="#" class="uppercase title-color">visita</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="gradient-border">
-                                <div class="card-btn uppercase">
-                                    <a href="#" class="uppercase title-color">codice</a>
+                                <div class="gradient-border">
+                                    <div class="card-btn uppercase">
+                                        <a href="#" class="uppercase title-color">codice</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>             
                 </div>
 
-                <div class="card gradient-border">
+                <div class="card gradient-border hidden">
                     <div class="card-inner">
-                        <img src="assets/img/placeholder.jpg" alt="preview progetto" class="card-img">
-                        <h3 class="title-color">Project Title</h3>
-                        <p class="card-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, maiores voluptatem eius provident quidem aperiam quaerat est numquam, sequi officia qui eum aut et magni tempore. Quam nisi tempore omnis.</p>
-                        <div class="btn-flex">
-                            <div class="gradient-border">
-                                <div class="card-btn uppercase">
-                                    <a href="#" class="uppercase title-color">visita</a>
+                        <div>
+                            <img src="assets/img/placeholder.jpg" alt="preview progetto" class="card-img">
+                        </div>
+                        <div>
+                            <h3 class="title-color">Project Title 4</h3>
+                            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nostrum ex quaerat non facilis tempora vitae atque, est, veniam dicta doloribus enim, consectetur optio nulla harum ut aliquam earum perspiciatis.
+                            Eum, illum voluptates tempore praesentium ut, dolorum corporis quod accusamus debitis in maxime. Assumenda culpa quaerat atque tempora excepturi nulla mollitia, soluta, eligendi facere quis laboriosam sapiente dolorem, veritatis pariatur!
+                            Rerum, voluptate. Minima ipsa ipsam ullam molestiae odio culpa non ex, adipisci corporis earum sed beatae repellendus voluptates delectus perspiciatis atque alias, illum quibusdam, eos veritatis quam facere maxime optio!
+                            Alias error optio corporis recusandae laudantium impedit quasi molestias laboriosam aperiam! Harum nobis enim accusamus numquam beatae facilis atque, eum eaque doloremque laboriosam suscipit voluptatibus vel ex quas. Tempora, voluptatibus?
+                            Facilis odio autem nesciunt hic voluptatibus modi minus necessitatibus veritatis optio sunt molestiae doloremque dicta suscipit porro dolorum sint ipsam nulla quas, accusantium, inventore quaerat ratione eos pariatur fugiat? Provident. </p>
+                            <div class="btn-flex">
+                                <div class="gradient-border">
+                                    <div class="card-btn uppercase">
+                                        <a href="#" class="uppercase title-color">visita</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="gradient-border">
-                                <div class="card-btn uppercase">
-                                    <a href="#" class="uppercase title-color">codice</a>
+                                <div class="gradient-border">
+                                    <div class="card-btn uppercase">
+                                        <a href="#" class="uppercase title-color">codice</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>             
                 </div>
 
-                <div class="card gradient-border">
+                <div class="card gradient-border hidden">
                     <div class="card-inner">
-                        <img src="assets/img/placeholder.jpg" alt="preview progetto" class="card-img">
-                        <h3 class="title-color">Project Title</h3>
-                        <p class="card-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, maiores voluptatem eius provident quidem aperiam quaerat est numquam, sequi officia qui eum aut et magni tempore. Quam nisi tempore omnis.</p>
-                        <div class="btn-flex">
-                            <div class="gradient-border">
-                                <div class="card-btn uppercase">
-                                    <a href="#" class="uppercase title-color">visita</a>
+                        <div>
+                            <img src="assets/img/placeholder.jpg" alt="preview progetto" class="card-img">
+                        </div>
+                        <div>
+                            <h3 class="title-color">Project Title 5</h3>
+                            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nostrum ex quaerat non facilis tempora vitae atque, est, veniam dicta doloribus enim, consectetur optio nulla harum ut aliquam earum perspiciatis.
+                            Eum, illum voluptates tempore praesentium ut, dolorum corporis quod accusamus debitis in maxime. Assumenda culpa quaerat atque tempora excepturi nulla mollitia, soluta, eligendi facere quis laboriosam sapiente dolorem, veritatis pariatur!
+                            Rerum, voluptate. Minima ipsa ipsam ullam molestiae odio culpa non ex, adipisci corporis earum sed beatae repellendus voluptates delectus perspiciatis atque alias, illum quibusdam, eos veritatis quam facere maxime optio!
+                            Alias error optio corporis recusandae laudantium impedit quasi molestias laboriosam aperiam! Harum nobis enim accusamus numquam beatae facilis atque, eum eaque doloremque laboriosam suscipit voluptatibus vel ex quas. Tempora, voluptatibus?
+                            Facilis odio autem nesciunt hic voluptatibus modi minus necessitatibus veritatis optio sunt molestiae doloremque dicta suscipit porro dolorum sint ipsam nulla quas, accusantium, inventore quaerat ratione eos pariatur fugiat? Provident. </p>
+                            <div class="btn-flex">
+                                <div class="gradient-border">
+                                    <div class="card-btn uppercase">
+                                        <a href="#" class="uppercase title-color">visita</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="gradient-border">
-                                <div class="card-btn uppercase">
-                                    <a href="#" class="uppercase title-color">codice</a>
+                                <div class="gradient-border">
+                                    <div class="card-btn uppercase">
+                                        <a href="#" class="uppercase title-color">codice</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>             
                 </div>
 
-                <div class="card gradient-border">
+                <div class="card gradient-border hidden">
                     <div class="card-inner">
-                        <img src="assets/img/placeholder.jpg" alt="preview progetto" class="card-img">
-                        <h3 class="title-color">Project Title</h3>
-                        <p class="card-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, maiores voluptatem eius provident quidem aperiam quaerat est numquam, sequi officia qui eum aut et magni tempore. Quam nisi tempore omnis.</p>
-                        <div class="btn-flex">
-                            <div class="gradient-border">
-                                <div class="card-btn uppercase">
-                                    <a href="#" class="uppercase title-color">visita</a>
+                        <div>
+                            <img src="assets/img/placeholder.jpg" alt="preview progetto" class="card-img">
+                        </div>
+                        <div>
+                            <h3 class="title-color">Project Title 6</h3>
+                            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nostrum ex quaerat non facilis tempora vitae atque, est, veniam dicta doloribus enim, consectetur optio nulla harum ut aliquam earum perspiciatis.
+                            Eum, illum voluptates tempore praesentium ut, dolorum corporis quod accusamus debitis in maxime. Assumenda culpa quaerat atque tempora excepturi nulla mollitia, soluta, eligendi facere quis laboriosam sapiente dolorem, veritatis pariatur!
+                            Rerum, voluptate. Minima ipsa ipsam ullam molestiae odio culpa non ex, adipisci corporis earum sed beatae repellendus voluptates delectus perspiciatis atque alias, illum quibusdam, eos veritatis quam facere maxime optio!
+                            Alias error optio corporis recusandae laudantium impedit quasi molestias laboriosam aperiam! Harum nobis enim accusamus numquam beatae facilis atque, eum eaque doloremque laboriosam suscipit voluptatibus vel ex quas. Tempora, voluptatibus?
+                            Facilis odio autem nesciunt hic voluptatibus modi minus necessitatibus veritatis optio sunt molestiae doloremque dicta suscipit porro dolorum sint ipsam nulla quas, accusantium, inventore quaerat ratione eos pariatur fugiat? Provident. </p>
+                            <div class="btn-flex">
+                                <div class="gradient-border">
+                                    <div class="card-btn uppercase">
+                                        <a href="#" class="uppercase title-color">visita</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="gradient-border">
-                                <div class="card-btn uppercase">
-                                    <a href="#" class="uppercase title-color">codice</a>
+                                <div class="gradient-border">
+                                    <div class="card-btn uppercase">
+                                        <a href="#" class="uppercase title-color">codice</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>             
                 </div>
 
-                <div class="card gradient-border">
+                <div class="card gradient-border hidden">
                     <div class="card-inner">
-                        <img src="assets/img/placeholder.jpg" alt="preview progetto" class="card-img">
-                        <h3 class="title-color">Project Title</h3>
-                        <p class="card-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, maiores voluptatem eius provident quidem aperiam quaerat est numquam, sequi officia qui eum aut et magni tempore. Quam nisi tempore omnis.</p>
-                        <div class="btn-flex">
-                            <div class="gradient-border">
-                                <div class="card-btn uppercase">
-                                    <a href="#" class="uppercase title-color">visita</a>
+                        <div>
+                            <img src="assets/img/placeholder.jpg" alt="preview progetto" class="card-img">
+                        </div>
+                        <div>
+                            <h3 class="title-color">Project Title 7</h3>
+                            <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nostrum ex quaerat non facilis tempora vitae atque, est, veniam dicta doloribus enim, consectetur optio nulla harum ut aliquam earum perspiciatis.
+                            Eum, illum voluptates tempore praesentium ut, dolorum corporis quod accusamus debitis in maxime. Assumenda culpa quaerat atque tempora excepturi nulla mollitia, soluta, eligendi facere quis laboriosam sapiente dolorem, veritatis pariatur!
+                            Rerum, voluptate. Minima ipsa ipsam ullam molestiae odio culpa non ex, adipisci corporis earum sed beatae repellendus voluptates delectus perspiciatis atque alias, illum quibusdam, eos veritatis quam facere maxime optio!
+                            Alias error optio corporis recusandae laudantium impedit quasi molestias laboriosam aperiam! Harum nobis enim accusamus numquam beatae facilis atque, eum eaque doloremque laboriosam suscipit voluptatibus vel ex quas. Tempora, voluptatibus?
+                            Facilis odio autem nesciunt hic voluptatibus modi minus necessitatibus veritatis optio sunt molestiae doloremque dicta suscipit porro dolorum sint ipsam nulla quas, accusantium, inventore quaerat ratione eos pariatur fugiat? Provident. </p>
+                            <div class="btn-flex">
+                                <div class="gradient-border">
+                                    <div class="card-btn uppercase">
+                                        <a href="#" class="uppercase title-color">visita</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="gradient-border">
-                                <div class="card-btn uppercase">
-                                    <a href="#" class="uppercase title-color">codice</a>
+                                <div class="gradient-border">
+                                    <div class="card-btn uppercase">
+                                        <a href="#" class="uppercase title-color">codice</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>             
                 </div>
+
                 
 
 
@@ -220,7 +277,7 @@
 
     <!-- SEZIONE CONTATTI -->
     <section id="contact" class="skew gradient">
-        <div class="wrapper">
+        <div class="wrapper hidden">
             <h2 class="contact-title uppercase">.Contact Me</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam distinctio accusantium quidem ab adipisci cum soluta nam in reprehenderit. Incidunt asperiores temporibus architecto praesentium repellat facilis nihil, non ex nemo!
             Praesentium, doloremque libero suscipit, earum vitae sed perspiciatis unde blanditiis eaque incidunt minus architecto perferendis sapiente nam voluptas, non laborum aspernatur quasi sequi optio quidem sunt quibusdam officiis aut! Nam?
@@ -241,6 +298,6 @@
 
 
     <!-- SCRIPT -->
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
 </body>
 </html>

@@ -247,24 +247,6 @@ header > .gradient-border{
     transition: all 1s;
 }
 
-.card:hover{
-    grid-column-start: 1;
-    grid-column-end: -1;
-}
-
-.card:hover .card-inner{
-    column-gap: 2%;
-    /* align-items: flex-start; */
-}
-
-.card:hover .card-inner > div{
-    width: 49%;
-}
-
-.card:hover .card-description{
-    height: auto;
-}
-
 .card-inner{
     background: var(--bg-color);
     width: 100%;

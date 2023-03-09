@@ -89,12 +89,12 @@ div.wrapper{
     justify-content: center;
 }
 
-/* .hidden{
+.hidden{
     opacity: 0;
     filter: blur(3px);
     transition: all 1s;
     transform: translateX(-100%);
-} */
+}
 
 .show{
     opacity: 1;

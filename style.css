@@ -60,6 +60,12 @@ div.wrapper{
     width: 80%;
     margin: auto;
 }
+a,
+a:hover,
+a:visited,
+a:active{
+    text-decoration: none;
+}
 
 
 /* CLASSI UTILITY */
@@ -159,27 +165,31 @@ header > .gradient-border{
     margin-bottom: 120px;
 }
 
-#about > .wrapper > .content-wrapper{
+#about .wrapper .content-wrapper{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
     align-items: center;
 }
 
 .about-img-wrapper{
-    width: auto;
+    width: 350px;
     height: auto;
 }
 
 #self-portrait{
-    width: 350px;
-    height: 400px;
+    width: 40%;
+    min-width: 350px;
+    height: auto;
     border: 3px solid var(--bg-color);
     border-radius: 2px;
 }
 
 .about-text-wrapper{
+    width: 60%;
+    min-width: 400px;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -245,6 +255,25 @@ header > .gradient-border{
 .card{
     width: 100%;
     transition: all 1s;
+}
+
+.card:hover{
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.card:hover .card-inner{
+    column-gap: 2%;
+    align-items: flex-start ;
+}
+
+.card:hover .card-inner > div{
+    width: 49%;
+    min-width: 350px;
+}
+
+.card:hover .card-description{
+    height: auto;
 }
 
 .card-inner{

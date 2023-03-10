@@ -29,6 +29,11 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: url(assets/img/bg4.jpg),
+                var(--bg-color);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 section{
@@ -204,6 +209,7 @@ header > .gradient-border{
 
 .icons-wrap{
     margin-top: 40px;
+    padding-left: 50px;
     text-align: center;
     display: flex;
     justify-content: flex-start;
@@ -219,13 +225,14 @@ header > .gradient-border{
     width: 2em;
     height: 2em;
     color: var(--bg-color);
+    margin-top: 4px;
 }
 
 .resume{
     text-decoration: none;
     color: var(--bg-color);
     font-size: .8em;
-    padding: 10px 15px;
+    padding: .5rem 1rem;
     border: 3px solid var(--bg-color);
     display: inline-block;
     font-weight: 600;
